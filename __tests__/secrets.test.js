@@ -35,13 +35,13 @@ describe('user routes', () => {
         id: expect.any(String),
         title: 'positive thoughts',
         description: 'repeat I can do this',
-        created_at: expect.any(String),
+        createdAt: expect.any(String),
       },
       {
         id: expect.any(String),
         title: 'You wont believe me',
         description: 'Tupac is still alive',
-        created_at: expect.any(String),
+        createdAt: expect.any(String),
       },
     ]);
   });
