@@ -40,7 +40,7 @@ describe('user routes', () => {
       {
         id: expect.any(String),
         title: 'You wont believe me',
-        description: 'Tupac is still alive',
+        description: '2pac is still alive',
         createdAt: expect.any(String),
       },
     ]);

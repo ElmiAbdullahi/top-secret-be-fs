@@ -23,7 +23,7 @@ INSERT INTO secrets(title, description)
 
 VALUES
 ('positive thoughts', 'repeat I can do this'),
-('You wont believe me', 'Tupac is still alive');
+('You wont believe me', '2pac is still alive');
 
 
 
