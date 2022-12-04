@@ -36,6 +36,14 @@ describe('users route', () => {
     expect(resp.body).toEqual({ message: 'Signed in successfully' });
   });
 
+  it('DELETE /api/v1/users/sessions logs out a user', async () => {
+    const res = await request(app).get('/api/v1/users');
+    expect(res.body).toEqual({
+      message: 'You must be signed in to continue',
+      status: 401,
+    });
+  });
+
   afterAll(() => {
     pool.end();
   });
